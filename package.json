@@ -1,8 +1,8 @@
 {
   "name": "@nsolutions/pubsub",
   "version": "0.0.2",
-  "description": "",
-  "author": "",
+  "description": "Microservicio de PubSub para NestJS, con soporte para Google PubSub",
+  "author": "NSolutions SAS",
   "main": "dist/index.js",
   "license": "MIT",
   "publishConfig": {
@@ -12,6 +12,13 @@
     "type": "git",
     "url": "https://github.com/nsolutionsas/pubsub.git"
   },
+  "keywords": [
+    "nestjs",
+    "pubsub",
+    "google",
+    "google cloud",
+    "google pubsub"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
